@@ -75,6 +75,7 @@
     width: 100%;
     font-size: 1rem;
     border: none;
+    outline: none;
     
 }
 .search-icon {
@@ -88,4 +89,48 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 
+}
+
+.nav-search:active{
+    border: 3px solid orange; 
+}
+.nav-search:hover .search-icon{
+    background-color: #f6af45;
+}
+
+/** Sign in  and Returns & Orders */
+span {
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    font-weight: 400;
+
+}
+.nav-second {
+    font-size: 0.975rem;
+    font-weight: 700;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    
+}
+
+.account select {
+    border: none;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    width: 15px;
+
+}
+
+/* Cart */
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.975rem;
+    color: #FFFFFF;
+    font-weight: 700;
 }
