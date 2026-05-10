@@ -161,3 +161,28 @@ span {
     font-size: 0.9rem;
     font-weight: 700;
 }
+
+/* Hero Section */
+.hero-section {
+    background-image: url("/hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-text {
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+}
+.hero-text a {
+    color: #007185;
+    
+}
