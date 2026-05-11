@@ -193,6 +193,7 @@ span {
     justify-content: space-evenly;
     background-color: #3c045f;
     flex-wrap: wrap;
+    border-bottom: 1px solid #DDDDDD;
 
 
 }
@@ -226,4 +227,38 @@ span {
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+/* Footer Section */
+.foot-panel1 {
+    height: 25px;
+    background-color: #37475A;
+    font-size: 0.9rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+    margin-top: 25px;
+
+}
+.foot-panel2 {
+    height: 350px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.foot-panel2 a {
+    display: block;
+    color: #DDDDDD;
+    font-size: 0.85rem;
+    margin-top: 15px;
+
+}
+.foot-panel2 p {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 40px;
 }
