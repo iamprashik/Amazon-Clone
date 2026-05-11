@@ -201,6 +201,8 @@ span {
     width: 23%;
     background-color: white;
     margin-top: 25px;
+    font-size: 0.9rem;
+    color: rgb(15,17,17);
 }
 .box-img {
     height: 280px;
@@ -217,4 +219,11 @@ span {
     font-size: 0.9rem;
     margin-bottom: 0.5rem;
     color: #007185;
+}
+.boxx-img {
+    height: 255px;
+    padding: 20px 0px 15px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
