@@ -262,3 +262,37 @@ span {
     font-weight: 700;
     margin-top: 40px;
 }
+.panel-line {
+    height: 70px;
+    background-color: #222f3d;
+    border-top: 0.1px solid #DDDDDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.amazon-logo {
+    background-image: url('/amazon-logo.jpg');
+    height: 40px;
+    width: 110px;
+    background-size: cover;
+    background-position: center;
+}
+.foot-panel3 {
+    height: 70px;
+    background-color: #131a22;
+    color:#DDDDDD;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 15px 0;
+
+}
+.foot-panel3 a {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.foot-panel3 p {
+    margin-top: 5px;
+}
