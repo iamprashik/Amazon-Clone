@@ -6,7 +6,7 @@
 
 .navbar {
     height: 65px;
-    background-color: #0f1111;
+    background-color: #141c25;
     color: white;
     display: flex;
     align-items: center;
@@ -18,11 +18,11 @@
 .nav-logo {
     height: 50px;
     width: 130px;
-    
+
 
 }
 .logo {
-    background-image: url("/amazon-logo.jpg");
+    background-image: url("/amazon-logo.png");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -51,7 +51,6 @@
 }
 .add-second {
     font-size: 1rem;
-    
 }
 /* Search */
 .nav-search {
@@ -221,6 +220,10 @@ span {
     margin-bottom: 0.5rem;
     color: #007185;
 }
+.box-content p:hover{
+    color: rgb(12, 51, 83);
+}
+
 .boxx-img {
     height: 255px;
     padding: 20px 0px 15px;
@@ -273,7 +276,7 @@ span {
     
 }
 .amazon-logo {
-    background-image: url('/amazon-logo.jpg');
+    background-image: url('/amazon-logo.png');
     height: 40px;
     width: 110px;
     background-size: cover;
@@ -292,6 +295,15 @@ span {
     margin-left: 10px;
     margin-top: 15px;
 }
+
+.foot-panel3 a:hover {
+    text-decoration: underline;
+}
+
+.foot-panel2 a:hover {
+    text-decoration: underline;
+}
+
 
 .foot-panel3 p {
     margin-top: 5px;
