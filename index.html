@@ -3,205 +3,348 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Amazon</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/style.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    >
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <header>
-        <!-- First header -->
+
+        <!-- First Header -->
         <div class="navbar">
+
             <div class="nav-logo border">
                 <div class="logo"></div>
             </div>
-            
+
             <div class="nav_address border">
                 <p class="add-first">Deliver to</p>
+
                 <div class="add-icon">
                     <i class="fa-solid fa-location-dot"></i>
                     <p class="add-second">Canada</p>
                 </div>
             </div>
-            <div class="nav-search ">
+
+            <div class="nav-search">
+
                 <select class="select-search">
-                    <option> All</option>
+                    <option>All</option>
                 </select>
-                <input type="text" placeholder="Search Amazon" class="input-search">
+
+                <input
+                    type="text"
+                    placeholder="Search Amazon"
+                    class="input-search"
+                >
+
                 <div class="search-icon">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
+
             </div>
-            
-            
+
             <div class="nav-sign border">
-                <p><span>Hello, Sign in</span></p>
+
+                <p>
+                    <span>Hello, Sign in</span>
+                </p>
+
                 <div class="account">
-                <p class="nav-second"> Account & Lists </p>
-                <select><option></option></select> 
+                    <p class="nav-second">Account & Lists</p>
+
+                    <select>
+                        <option></option>
+                    </select>
                 </div>
+
             </div>
 
             <div class="nav-return border">
-                <p><span>Returns</span></p>
-                <p class="nav-second"> & Orders </p>
-                
+                <p>
+                    <span>Returns</span>
+                </p>
+
+                <p class="nav-second">& Orders</p>
             </div>
 
             <div class="nav-cart border">
                 <i class="fa-solid fa-cart-shopping"></i>
                 Cart
             </div>
+
+        </div>
+
+
+        <!-- Second Header -->
+        <div class="panel">
+
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+                All
             </div>
 
-            <!-- Second header -->
-            <div class="panel ">
-                <div class="panel-all border">
-                    <i class="fa-solid fa-bars"></i>
-                    All
-                </div>
-                <div class="panel-items">
-                    <p class="border">Today's Deals</p>
-                    <p class="border">Amazon Pay</p>
-                    <p class="border">Best Sellers</p>
-                    <p class="border">Mobiles</p>
-                    <p class="border">Customer Service</p>
-                </div>
-                <div class="panel-deals border">
-                    <p> Shop deals in Electronics </p>
-                </div>
+            <div class="panel-items">
+                <p class="border">Today's Deals</p>
+                <p class="border">Amazon Pay</p>
+                <p class="border">Best Sellers</p>
+                <p class="border">Mobiles</p>
+                <p class="border">Customer Service</p>
             </div>
-        
+
+            <div class="panel-deals border">
+                <p>Shop deals in Electronics</p>
+            </div>
+
+        </div>
+
     </header>
 
+
+    <!-- Hero -->
     <div class="hero-section">
+
         <div class="hero-text">
-            <p>You are currently on Amazon.com. You can also shop on Amazon.ca for a great selection of products at great prices. <a>Click here to go to Amazon.ca.</a></p>
+            <p>
+                You are currently on Amazon.com.
+                You can also shop on Amazon.ca for a great selection
+                of products at great prices.
+                <a href="#">Click here to go to Amazon.ca.</a>
+            </p>
         </div>
+
     </div>
 
-    <!-- Shop sections -->
-     <div class="shop-section">
+
+    <!-- Shop Section -->
+    <div class="shop-section">
+
         <div class="box">
             <div class="box-content">
-            <h2> New Album: Westlife</h2>
-            <div class="box-img" style="background-image: url('box1.jpg');"></div>
-            <p>Stream now</p>
-            </div> 
-        </div>
-        <div class="box">
-            <div class="box-content">
-            <h2> Get your game on</h2>
-            <div class="box-img" style="background-image: url('box2.jpg');"></div>
-            <p>Shop the latest from Gaming</p>
-            </div>   
-        </div>
-        <div class="box">
-             <div class="box-content">
-            <h2> Gift cards.: +450 brands</h2>
-            <div class="box-img" style="background-image: url('box3.jpg');"></div>
-            <p>Shop now</p>
-            </div>
-        </div>
-        <div class="box">
-             <div class="box-content">
-            <h2> Local products from Qubec</h2>
-            <div class="box-img" style="background-image: url('box4.jpg');"></div>
-            <p>Learn more</p>
-            </div>
-        </div>
-        <div class="box">
-             <div class="box-content">
-            <h2> Project Hail Mary</h2>
-            <div class="box-img" style="background-image: url('box5.jpg');"></div>
-            <p>Rent or Buy</p>
-            </div>
-        </div>
-        <div class="box">
-             <div class="box-content">
-            <h2> Designed for the present since 1850</h2>
-            <div class="boxx-img" style="background-image: url('box6.jpg');"></div>
-            <p>Shop Johnston & Murphy</p>
-            </div>
-        </div>
-        <div class="box">
-             <div class="box-content">
-            <h2> Shop Clothing under $15</h2>
-            <div class="box-img" style="background-image: url('box7.jpg');"></div>
-            <p>Shop now</p>
-            </div>
-        </div>
-        <div class="box">
-             <div class="box-content">
-            <h2> Top 100 bestsellers on Amazon Global Store</h2>
-            <div class="boxx-img" style="background-image: url('box8.jpg');"></div>
-            <p>Shop now</p>
+
+                <h2>New Album: Westlife</h2>
+
+                <div
+                    class="box-img"
+                    style="background-image: url('images/box1.jpg');">
+                </div>
+
+                <p>Stream now</p>
+
             </div>
         </div>
 
-     </div>
+
+        <div class="box">
+            <div class="box-content">
+
+                <h2>Get your game on</h2>
+
+                <div
+                    class="box-img"
+                    style="background-image: url('images/box2.jpg');">
+                </div>
+
+                <p>Shop the latest from Gaming</p>
+
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="box-content">
+
+                <h2>Gift cards: +450 brands</h2>
+
+                <div
+                    class="box-img"
+                    style="background-image: url('images/box3.jpg');">
+                </div>
+
+                <p>Shop now</p>
+
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="box-content">
+
+                <h2>Local products from Quebec</h2>
+
+                <div
+                    class="box-img"
+                    style="background-image: url('images/box4.jpg');">
+                </div>
+
+                <p>Learn more</p>
+
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="box-content">
+
+                <h2>Project Hail Mary</h2>
+
+                <div
+                    class="box-img"
+                    style="background-image: url('images/box5.jpg');">
+                </div>
+
+                <p>Rent or Buy</p>
+
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="box-content">
+
+                <h2>Designed for the present since 1850</h2>
+
+                <div
+                    class="boxx-img"
+                    style="background-image: url('images/box6.jpg');">
+                </div>
+
+                <p>Shop Johnston & Murphy</p>
+
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="box-content">
+
+                <h2>Shop Clothing under $15</h2>
+
+                <div
+                    class="box-img"
+                    style="background-image: url('images/box7.jpg');">
+                </div>
+
+                <p>Shop now</p>
+
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="box-content">
+
+                <h2>Top 100 bestsellers on Amazon Global Store</h2>
+
+                <div
+                    class="boxx-img"
+                    style="background-image: url('images/box8.jpg');">
+                </div>
+
+                <p>Shop now</p>
+
+            </div>
+        </div>
+
+    </div>
+
 
     <!-- Footer -->
-     <footer>
-        <div class="foot-panel1">
-            <p> Back to top</p>
-        </div>
-        <div class="foot-panel2">
-            <ul>
-                <p> Get to Know Us</p>
-                <a> Careers </a>
-                <a> Amazon and Our Planet </a>
-                <a> Modern Slavery Statement </a>
-                <a> Investor Relations </a>
-                <a> Press Releases </a>
-                <a> Amazon Science </a>
-            </ul>
-            <ul>
-                <p> Make Money with Us</p>
-                <a> Sell products on Amazon </a>
-                <a> Sell on Amazon Business </a>
-                <a> Sell apps on Amazon </a>
-                <a> Become an Affiliate </a>
-                <a> Advertise Your Products </a>
-                <a> Self-Publish with Us </a>
-                <a> Host an Amazon Hub </a>
-            </ul>
-            <ul>
-                <p> Amazon Payment Products</p>
-                <a> Amazon Rewards Visa Signature Cards </a>
-                <a> Amazon.com Store Card </a>
-                <a> Amazon Business Card </a>
-                <a> Amazon Business Line of Credit </a>
-                <a> Shop with Points </a>
-                <a> Credit Card Marketplace </a>
-                <a> Reload Your Balance </a>
-                <a> Amazon Currency Converter </a>
-            </ul>
-            <ul>
-                <p> Let Us Help You</p>
-                <a> Amazon and COVID-19 </a>
-                <a> Your Account </a>
-                <a> Your Orders </a>
-                <a> Shipping Rates & Policies </a>
-                <a> Returns & Replacements </a>
-                <a> Manage Your Content and Devices </a>
-                <a> Amazon Assistant </a>
-                <a> Help </a>
-            </ul>
-        </div>
-            <div class="panel-line">
-                <div class="amazon-logo"></div>
-            </div>
-            <div class="foot-panel3">
-                <a> Conditions of Use & Sale</a>
-                <a> Privacy Notice</a>
-                <a> Cookies and Internet advertising</a>
-                <p>© 1996-2026, Amazon.com, Inc. or its affiliates</p>
-            </div>
-           
-        </footer>
-            
+    <footer>
 
-        
+        <div class="foot-panel1">
+            <p>Back to top</p>
+        </div>
+
+
+        <div class="foot-panel2">
+
+            <ul>
+                <p>Get to Know Us</p>
+
+                <a>Careers</a>
+                <a>Amazon and Our Planet</a>
+                <a>Modern Slavery Statement</a>
+                <a>Investor Relations</a>
+                <a>Press Releases</a>
+                <a>Amazon Science</a>
+            </ul>
+
+
+            <ul>
+                <p>Make Money with Us</p>
+
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amazon Business</a>
+                <a>Sell apps on Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+                <a>Host an Amazon Hub</a>
+            </ul>
+
+
+            <ul>
+                <p>Amazon Payment Products</p>
+
+                <a>Amazon Rewards Visa Signature Cards</a>
+                <a>Amazon.com Store Card</a>
+                <a>Amazon Business Card</a>
+                <a>Amazon Business Line of Credit</a>
+                <a>Shop with Points</a>
+                <a>Credit Card Marketplace</a>
+                <a>Reload Your Balance</a>
+                <a>Amazon Currency Converter</a>
+            </ul>
+
+
+            <ul>
+                <p>Let Us Help You</p>
+
+                <a>Amazon and COVID-19</a>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>
+                <a>Manage Your Content and Devices</a>
+                <a>Amazon Assistant</a>
+                <a>Help</a>
+            </ul>
+
+        </div>
+
+
+        <div class="panel-line">
+
+            <div class="amazon-logo"></div>
+
+        </div>
+
+
+        <div class="foot-panel3">
+
+            <a>Conditions of Use & Sale</a>
+            <a>Privacy Notice</a>
+            <a>Cookies and Internet advertising</a>
+
+            <p>
+                © 1996-2026, Amazon.com, Inc. or its affiliates
+            </p>
+
+        </div>
+
+    </footer>
 
 </body>
 </html>
